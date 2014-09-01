@@ -116,12 +116,42 @@ header.secondary-header {
     margin: 0 auto;
   }
   #frontpage-headings #two:hover h2,
-  #frontpage-headings #two:hover p,
   #frontpage-headings #three:hover h2,
-  #frontpage-headings #three:hover p,
-  #frontpage-headings #one:hover h2,
-  #frontpage-headings #one:hover p {
-    color: #AE212E;
+  #frontpage-headings #one:hover h2 {
+    color: #AB3E5B;
+  }
+
+  #frontpage-headings #one span {
+    display: block;
+    width: 140px;
+    height: 140px;
+    background: url('../img/medios.jpg');
+    margin: 0 auto;
+  }
+  #frontpage-headings #one:hover span {
+    background: url('../img/medios.png');
+  }
+
+  #frontpage-headings #two span {
+    display: block;
+    width: 124px;
+    height: 140px;
+    background: url('../img/legal.jpg');
+    margin: 0 auto;
+  }
+  #frontpage-headings #two:hover span {
+    background: url('../img/legal.png');
+  }
+
+  #frontpage-headings #three span {
+    display: block;
+    width: 208px;
+    height: 140px;
+    background: url('../img/grupos.jpg');
+    margin: 0 auto;
+  }
+  #frontpage-headings #three:hover span {
+    background: url('../img/grupos.png');
   }
 
 /* DOCUMENTS */
@@ -205,14 +235,18 @@ header.secondary-header {
 /* WHO WE ARE */
 #who-we-are {
   font-size: 17px;
-  padding-top: 10px;
+  padding-top: 30px;
   font-family: "Varela Round", Helvetica, Arial, sans-serif;
   color: #666;
 }
 #who-we-are p {
   text-indent: 10px;
 }
-
+#who-we-are img {
+  width: 1000px;
+  margin-left: 350px;
+  margin-top: -20px;
+}
 
 /* MEDIA */
 #media {
