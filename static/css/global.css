@@ -1,0 +1,367 @@
+.navbar {
+  min-height: 62px;
+  background: #FFF;
+
+  font-family: "liberation_sansbold", Arial, Helvetica, sans-serif;
+
+  border-bottom: 1px solid #333;
+  box-shadow: 0 0 2px rgba(6,8,8,0.15);
+}
+  .navbar-brand {
+    padding-top: 20px;
+    height: 62px;
+  }
+  .navbar-nav {
+    margin-right: 100px;
+  }
+  .navbar-nav > li > a {
+    padding-top: 21px;
+    padding-bottom: 21px;
+    font-size: 13px;
+  }
+  nav a {
+    color: #3a3a3a;
+  }
+  .nav>li>a:hover,
+  .nav>li>a:focus {
+    background-color: #F9F9F9;
+  }
+
+header {
+  position: relative;
+
+  padding-bottom: 60px;
+  margin-bottom: 20px;
+  padding: 30px 15px;
+
+  text-align: center;
+  font-size: 24px;
+  font-size: 20px;
+
+  text-align: center;
+  color: rgba(255,255,255,.8);
+  background-color: #AE212E;
+  background-image: url(../img/rojo.png);
+}
+  header .fa-ban {
+    font-size: 80px;
+    color: #fff;
+    margin-top: 60px;
+  }
+  header h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    color: #fff;
+    font-weight: 400;
+  }
+
+@media (min-width: 992px) {
+    header h1{font-size: 60px;}
+}
+
+@media (max-width: 992px) {
+    header h1{font-size: 30px;}
+}
+
+  header p {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+header.secondary-header {
+  padding-top: 80px;
+  font-size: 20px;
+}
+  header.secondary-header h1 {
+    font-size: 30px;
+    font-style: italic;
+  }
+  header.secondary-header span {
+    color: #fff;
+    float: right;
+  }
+
+/* FRONTPAGE */
+
+#frontpage-headings #one,
+#frontpage-headings #three {
+  margin-top: 20px;
+}
+#frontpage-headings h2 {
+  font-size: 25px;
+  color: #384047;
+  text-align: center;
+}
+  #frontpage-headings p {
+    color: #666;
+    text-align: justify;
+    text-indent: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #frontpage-headings h2,
+  #frontpage-headings p {
+    font-family: "Varela Round", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-rendering: optimizeLegibility;
+  }
+  #frontpage-headings img {
+    height: 140px;
+
+    display: block;
+    margin: 0 auto;
+  }
+  #frontpage-headings #two:hover h2,
+  #frontpage-headings #two:hover p,
+  #frontpage-headings #three:hover h2,
+  #frontpage-headings #three:hover p,
+  #frontpage-headings #one:hover h2,
+  #frontpage-headings #one:hover p {
+    color: #AE212E;
+  }
+
+/* DOCUMENTS */
+#documents #left-side {
+  margin-right: 20px;
+}
+#documents #left-side li {
+  /*border: 1px solid #DDD;*/
+}
+  .nav-pills>li.active>a,
+  .nav-pills>li.active>a:hover,
+  .nav-pills>li.active>a:focus {
+    background: transparent;
+    color: #ccc;
+    font-weight: bold;
+  }
+  .nav-pills>li>a {
+    color: #777;
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  #documents #left-side #one {
+    border-bottom: 4px solid #C46072;
+  }
+
+  #documents #left-side #one a:hover,
+  #documents #left-side #one.active a {
+    color: #C46072;
+  }
+
+  #documents #left-side #two {
+    border-bottom: 4px solid #F77B70;
+  }
+
+  #documents #left-side #two a:hover,
+  #documents #left-side #two.active a {
+    color: #F77B70;
+  }
+
+  #documents #left-side #three {
+    border-bottom: 4px solid #F7AD6E;
+  }
+
+  #documents #left-side #four {
+    border-bottom: 4px solid #55D8A2;
+  }
+
+#documents .document .fa {
+  font-size: 50px;
+  margin-top: 20px;
+  display: block;
+  text-align: center;
+}
+  #documents .document:first-child {
+    border-top: 1px solid #BBB;
+  }
+  #documents .document {
+    border-bottom: 1px solid #BBB;
+    padding-bottom: 20px;
+  }
+  #documents .document .date {
+    color: #777;
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  #documents .document .title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  #documents .document .author {
+    font-size: 16px;
+    color: #AD202D;
+  }
+  #documents .document .description {
+    color: #777;
+    font-style: italic;
+  }
+
+/* WHO WE ARE */
+#who-we-are {
+  font-size: 17px;
+  padding-top: 10px;
+  font-family: "Varela Round", Helvetica, Arial, sans-serif;
+  color: #666;
+}
+#who-we-are p {
+  text-indent: 10px;
+}
+
+
+/* MEDIA */
+#media {
+  margin-bottom: 40px;
+}
+#media ul {
+  padding: 0;
+  float: left;
+}
+#media ul>li {
+  margin: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+
+  background: #F0F0F0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+@media (min-width: 992px) {
+  #media ul>li {
+    min-height: 230px;
+  }
+}
+  #media ul>li .date {
+    color: #666;
+    font: 200 16px "Varela Round", Helvetica, Arial, sans-serif;
+    display: block;
+    margin-bottom: 10px;
+  }
+  #media ul>li a {
+    font: 700 18px "Varela Round", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #397DBA;
+  }
+  #media .presslogo {
+    display: block;
+    margin-bottom: 15px;
+  }
+  #media .el-pais {
+    background: url('../img/media/el-pais.png');
+    width: 287px;
+    height: 63px;
+  }
+  #media .ara {
+    background: url('../img/media/ara.png');
+    width: 287px;
+    height: 80px;
+  }
+  #media .la-voz-de-galicia {
+    background: url('../img/media/la-voz-de-galicia.png');
+    width: 287px;
+    height: 49px;
+  }
+  #media .expansion {
+    background: url('../img/media/expansion.png');
+    width: 287px;
+    height: 60px;
+  }
+  #media .el-correo {
+    background: url('../img/media/el-correo.png');
+    width: 287px;
+    height: 55px;
+  }
+  #media .infolibre {
+    background: url('../img/media/infolibre.png');
+    width: 285px;
+    height: 73px;
+  }
+  #media .la-vanguardia {
+    background: url('../img/media/la-vanguardia.jpg');
+    width: 287px;
+    height: 41px;
+  }
+  #media .cinco-dias {
+    background: url('../img/media/cinco-dias.png');
+    width: 287px;
+    height: 45px;
+  }
+  #media .periodico-extremadura {
+    background: url('../img/media/periodico-extremadura.jpg');
+    width: 287px;
+    height: 76px;
+  }
+  #media .el-confidencial {
+    background: url('../img/media/el-confidencial.png');
+    width: 287px;
+    height: 33px;
+  }
+  #media .vozpopuli {
+    background: url('../img/media/vozpopuli.png');
+    width: 287px;
+    height: 77px;
+  }
+  #media .heraldo-de-aragon {
+    background: url('../img/media/heraldo-de-aragon.png');
+    width: 287px;
+    height: 75px;
+  }
+
+/* LEGAL */
+#legal {
+  margin-top: 40px;
+}
+#legal ul>li {
+  float: left;
+  list-style-type: none;
+  margin-right: 10px;
+}
+  #legal li.active span {
+    background: #397DBA;
+    color: #FFF;
+    font-weight: bold;
+  }
+  #legal ul>li span {
+    display: block;
+    float: left;
+    margin: 0 10px 10px 10px;
+    width: 140px;
+    padding: 10px;
+    font-size: 16px;
+
+    border: 1px solid #ddd;
+
+    border-radius: 4px;
+    background: #FAFAFA;
+    cursor: pointer;
+    text-align: center;
+  }
+  #legal .fa {
+    font-size: 40px;
+    float: left;
+    color: #666;
+    margin-top: 15px;
+  }
+
+#legal-content {
+  clear: both;
+  margin-top: 40px;
+}
+  #reclamaciones,
+  #reclamaciones-denegaciones,
+  #demandas,
+  #ayuda {
+    display: none;
+  }
+
+  #legal-content > div {
+    width: 70%;
+    margin: 0 auto;
+  }
